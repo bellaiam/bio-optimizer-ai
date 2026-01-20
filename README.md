@@ -1,159 +1,142 @@
-🧬 Bio-Optimizer AI
+# 🧬 Bio-Optimizer AI — an ML-powered data application that turns real-world lab PDFs into clear, actionable insights
 
-Turning complex lab results into clear, actionable health insights using AI
+Built to bridge **biomedical science** with **data engineering** and **machine learning**, focusing on messy data extraction, system-level analysis, and explainable AI.  
 
-Bio-Optimizer AI is a systems-based health analysis app that reads laboratory reports (PDFs), extracts biomarker values, and explains what they mean in plain, everyday language — without requiring a medical background.
+Turning complex lab results into clear, actionable health insights using AI.
 
-This project bridges my background in biomedical science with my transition into data, machine learning, and software engineering, combining domain knowledge with practical AI tooling.
+---
 
-✨ What It Does
+## **About Bio-Optimizer AI**
 
-📄 Uploads lab reports in PDF format
+**Bio-Optimizer AI** is a systems-based health analysis app that:
 
-🔍 Automatically extracts biomarker values
+- Reads laboratory reports (PDFs)  
+- Extracts biomarker values  
+- Explains results in **plain, everyday language** — no medical background required  
 
-📊 Visualizes results against optimal ranges
+This project bridges my background in biomedical science with my transition into data, ML, and software engineering, combining **domain expertise** with practical AI tooling.
 
-🧠 Uses AI to explain:
+---
 
-What’s high or low
+## ✨ **What It Does**
 
-Why it matters
+- 📄 **Uploads lab reports in PDF format**  
+- 🔍 **Automatically extracts biomarker values**  
+- 📊 **Visualizes results** against optimal ranges  
+- 🧠 Uses AI to explain:
+  - What’s high or low  
+  - Why it matters  
+  - Simple, practical ways to improve  
 
-Simple, practical ways to improve
+**Focus:** education and prevention — *not diagnosis*
 
-Focus: education and prevention — not diagnosis.
+---
 
-🧠 Why This Project
+## 🧠 **Why This Project**
 
 As a career changer moving from life sciences into tech, I wanted to build something that:
 
-Works with messy, real-world data (PDF parsing)
-
-Requires domain understanding, not just code
-
-Demonstrates how AI can simplify complex information
-
-Prioritizes user-centered explanations, not medical jargon
+- Works with **messy, real-world data** (PDF parsing)  
+- Requires **domain understanding**, not just coding skills  
+- Demonstrates how **AI can simplify complex information**  
+- Prioritizes **user-centered explanations** over medical jargon  
 
 This project combines:
 
-Data extraction
+- Data extraction  
+- Visualization  
+- Prompt engineering  
+- Systems thinking  
 
-Visualization
+---
 
-Prompt engineering
+## 🛠 **Tech Stack**
 
-Systems thinking
+- **Python**  
+- **Streamlit** – interactive UI  
+- **Plotly** – data visualizations  
+- **pdfplumber** – PDF text extraction  
+- **Regex-based parsing** – structured data extraction  
+- **Google Gemini (LLM)** – explainability in plain language  
 
-🛠 Tech Stack
+---
 
-Python
+## 🧪 **Biomarker Systems Covered**
 
-Streamlit – interactive UI
+- Metabolic Health  
+- Cardiovascular Health  
+- Inflammation & Immune Response  
 
-Plotly – visualizations
+Each system is analyzed **individually** and **in relation to the others**.
 
-pdfplumber – PDF text extraction
+---
 
-Regex-based parsing – structured data extraction
+## ⚠️ **Important Disclaimer**
 
-Google Gemini (LLM) – explainability in plain language
+This app is for **educational purposes only**.  
+It does **not** provide medical diagnosis or treatment recommendations.
 
-🧪 Biomarker Systems Covered
+---
 
-Metabolic Health
+## 🔑 **Gemini API Key (Required)**
 
-Cardiovascular Health
-
-Inflammation & Immune Response
-
-Each system is analyzed individually and in relation to the others.
-
-⚠️ Important Disclaimer
-
-This app is for educational purposes only.
-It does not provide medical diagnosis or treatment recommendations.
-
-🔑 Gemini API Key (Required)
-
-Bio-Optimizer AI uses Google’s Gemini AI to convert lab results into clear, human-readable explanations.
+Bio-Optimizer AI uses **Google Gemini** to convert lab results into **clear, human-readable explanations**.  
 
 To keep this project:
 
-Free to use
+- Free to use  
+- Secure  
+- Independent of shared API limits  
 
-Secure
+👉 **Each user provides their own free Gemini API key**  
 
-Independent of shared API limits
+- The key is entered **locally** in the app  
+- It is **not stored**  
+- It is **not shared or logged**  
 
-👉 Each user provides their own free Gemini API key.
+---
 
-The key is entered locally in the app
+### ✅ **How to Get a Free Gemini API Key**
 
-It is not stored
+1. Go to **Google AI Studio**: [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)  
+2. Sign in with your **Google account**  
+3. Click **“Create API Key”**  
+4. Copy the generated key  
 
-It is not shared or logged
+---
 
-✅ How to Get a Free Gemini API Key
+### 🔐 **How the App Uses the Key**
 
-Go to Google AI Studio
-https://aistudio.google.com/app/apikey
-
-Sign in with your Google account
-
-Click “Create API Key”
-
-Copy the generated key
-
-🔐 How the App Uses the Key
-
-Start the app
-
-Paste your API key into the sidebar input
-
-Run the analysis
+1. Start the app  
+2. Paste your API key into the **sidebar input**  
+3. Run the analysis  
 
 No environment variables required.
 
-❓ Why Not Include an API Key by Default?
+---
 
-Using a shared key would:
+### ❓ **Why Not Include an API Key by Default?**
 
-Risk hitting free-tier limits
+Using a shared key would:  
 
-Expose credentials publicly
-
-Cause the app to stop working for everyone
+- Risk hitting **free-tier limits**  
+- Expose credentials **publicly**  
+- Cause the app to **stop working for everyone**  
 
 Requiring individual keys keeps the project:
 
-Reliable
+- Reliable  
+- Transparent  
+- Safe for open-source use  
 
-Transparent
+---
 
-Safe for open-source use
+## 🚀 **How to Run Locally**
 
-🚀 How to Run Locally
+```bash
 git clone https://github.com/your-username/bio-optimizer-ai.git
 cd bio-optimizer-ai
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
-
-📁 Sample Data
-
-The repository includes a sample lab PDF with abnormal values for testing:
-
-samples/sample_lab_report_abnormal_text.pdf
-
-🔮 Future Improvements
-
-Smarter PDF parsing across different lab formats
-
-Additional biomarker systems (hormones, liver, kidney, micronutrients)
-
-Trend analysis across multiple lab reports
-
-Deployment with secure per-user API handling
