@@ -140,3 +140,20 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
+
+```
+<img width="1246" height="685" alt="Screenshot 2026-01-20 at 10 30 36 AM" src="https://github.com/user-attachments/assets/07a6d9a9-ec19-4520-9bea-feb491c588c5" />
+
+<img width="1254" height="687" alt="Screenshot 2026-01-20 at 10 28 07 AM" src="https://github.com/user-attachments/assets/a8f80679-e185-4467-9387-3f0ac6e3464a" />
+<img width="1239" height="670" alt="Screenshot 2026-01-20 at 10 28 18 AM" src="https://github.com/user-attachments/assets/a56d2fa7-144d-4434-8a15-7988a4972e6b" />
+<img width="1233" height="659" alt="Screenshot 2026-01-20 at 10 28 31 AM" src="https://github.com/user-attachments/assets/9fc55472-e237-487e-ad32-aa31314b0a0e" />
+<img width="1253" height="694" alt="Screenshot 2026-01-20 at 10 28 46 AM" src="https://github.com/user-attachments/assets/a64f9942-2666-4521-90f9-24a4466a3b4c" />
+<img width="1242" height="520" alt="Screenshot 2026-01-20 at 10 28 58 AM" src="https://github.com/user-attachments/assets/b391ee86-1a8b-4ce9-b283-9f21f76e19ab" />
+<img width="1233" height="693" alt="Screenshot 2026-01-20 at 10 29 10 AM" src="https://github.com/user-attachments/assets/32a950fa-b56c-43ff-ba2f-e11fe3cbb27a" />
+<img width="1266" height="652" alt="Screenshot 2026-01-20 at 10 29 23 AM" src="https://github.com/user-attachments/assets/ec90e385-e81e-489d-8c2a-c177dd2518df" />
+
+
+
+
+
+
